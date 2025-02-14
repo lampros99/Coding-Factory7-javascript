@@ -7,6 +7,7 @@ const person = {
 }
 
 const { firstname, age, city } = person // object destructure
+
 console.log(firstname, age, city)
 
 const { firstname: first, age: newAge, city: myCity = "Toronto"} = person
