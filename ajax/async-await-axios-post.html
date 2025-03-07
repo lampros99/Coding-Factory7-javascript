@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.8.1/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Asunc await Axios Post</title>
 </head>
 <body>
 
@@ -14,14 +14,20 @@
     <script>
     document.getElementById("btn").addEventListener('click', async () => {
         try {
-            let response = await fetch('https://jsonplaceholder.typicode.com/posts/1')
-            document.getElementById('output').innerHTML = 
-                                                           `<b>Title:</b> ${data.title}
+            const postData = {
+                title: 'Coding',
+                body: 'Coding Factory',
+                userId: 1
+            }
+
+            let response = await axios.post('https://jsonplaceholder.typicode.com/posts', postData);
+            document.getElementById('output').innerHTML = `<b>Id:</b> ${response.data.id}<br>
+                                                           <b>Title:</b> ${response.data.title}<br>
                                                            <br>
                                                            ${response.data.body}`
         } catch (error){
-            console.error('Fetch error', error)
-            document.getElementById('output').innerHTML - 'Error fetching data'
+            console.error('Get error', error)
+            document.getElementById('output').innerHTML = 'Error fetching data'
         }
     })
     
