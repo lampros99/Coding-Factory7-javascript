@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.8.1/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Axios Post</h1>
+    <button type="button" onclick="createPost()">Click to send the post</button>
+    <p id="axiosResponse"></p>
+
+    <script>
+        const payload = {
+            title: "Coding Factory",
+            body: "CF JS Course",
+            userid: 1
+        }
+
+        const createPost = () =>
+        axios.Post('https://jsonplaceholder.typicode.com/posts/1', payload)
+        .then(response => {
+            document.getElementById('axiosResponse').innerHTML = `<b>Post</b>: ${response.data.title}`
+        })
+        .catch(error => {
+            console.error("Error: ", error);
+            document.getElementById("axiosResponse").innerHTML = `Error. ${error.message}`
+        })
+    </script>
+</body>
+</html>
