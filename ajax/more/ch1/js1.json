@@ -1,47 +1,77 @@
 [
     {
-        "firstname": "john",
-        "lastname" : "dicaprio",
-        "age" : 27
+        "firstname": "alex",
+        "lastname": "papadopoulos",
+        "age": 34
+    },
+    {
+        "firstname": "markos",
+        "lastname": "iliadis",
+        "age": 41
+    },
+    {
+        "firstname": "petros",
+        "lastname": "vrettos",
+        "age": 29
+    },
+    {
+        "firstname": "lefteris",
+        "lastname": "stamatopoulos",
+        "age": 52
+    },
+    {
+        "firstname": "marina",
+        "lastname": "nikolaou",
+        "age": 47
+    },
+    {
+        "firstname": "kostas",
+        "lastname": "papadakis",
+        "age": 38
+    },
+    {
+        "firstname": "giannis",
+        "lastname": "sotiropoulos",
+        "age": 22
+    },
+    {
+        "firstname": "nikos",
+        "lastname": "athanasiou",
+        "age": 17
+    },
+    {
+        "firstname": "maria",
+        "lastname": "theodorou",
+        "age": 16
     },
     {
         "firstname": "lampros",
-        "lastname" : "alexandris",
-        "age" : 45
-    },
-    {
-        "firstname": "mike",
-        "lastname" : "kaminiaris",
-        "age" : 50
+        "lastname": "alexandris",
+        "age": 45
     },
     {
         "firstname": "george",
-        "lastname" : "michalopoulos",
-        "age" : 47
-    },
-    {
-        "firstname": "eva",
-        "lastname" : "alexandri",
-        "age" : 48
+        "lastname": "michalopoulos",
+        "age": 47
     },
     {
         "firstname": "john",
-        "lastname" : "stefanopoulos",
-        "age" : 27
+        "lastname": "stefanopoulos",
+        "age": 27
     },
     {
         "firstname": "dimitris",
-        "lastname" : "georgiadis",
-        "age" : 38
-    },
-    {
-        "firstname": "john",
-        "lastname" : "dicaprio",
-        "age" : 19
+        "lastname": "georgiadis",
+        "age": 38
     },
     {
         "firstname": "stefanos",
-        "lastname" : "kostantinou",
-        "age" : 50
+        "lastname": "kostantinou",
+        "age": 50
+    },
+    {
+        "firstname": "mike",
+        "lastname": "karagiannis",
+        "age": 50
     }
 ]
