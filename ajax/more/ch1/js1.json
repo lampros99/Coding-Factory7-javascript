@@ -1,0 +1,47 @@
+[
+    {
+        "firstname": "john",
+        "lastname" : "dicaprio",
+        "age" : 27
+    },
+    {
+        "firstname": "lampros",
+        "lastname" : "alexandris",
+        "age" : 45
+    },
+    {
+        "firstname": "mike",
+        "lastname" : "kaminiaris",
+        "age" : 50
+    },
+    {
+        "firstname": "george",
+        "lastname" : "michalopoulos",
+        "age" : 47
+    },
+    {
+        "firstname": "eva",
+        "lastname" : "alexandri",
+        "age" : 48
+    },
+    {
+        "firstname": "john",
+        "lastname" : "stefanopoulos",
+        "age" : 27
+    },
+    {
+        "firstname": "dimitris",
+        "lastname" : "georgiadis",
+        "age" : 38
+    },
+    {
+        "firstname": "john",
+        "lastname" : "dicaprio",
+        "age" : 19
+    },
+    {
+        "firstname": "stefanos",
+        "lastname" : "kostantinou",
+        "age" : 50
+    }
+]
