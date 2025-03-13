@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .text-red {
+        color: red;
+    }
+</style>
+<body>
+
+    <div>
+        <ul id="menu">
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML/CSS</li>
+        </ul>
+    </div>
+    
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script>
+    $('#menu').on('click', 'li', function(e) {
+        console.log('Clicked on: ' + $(this).text())
+        console.log($(e.target).text())
+        $(this).toggleClass('text-red')
+    })
+</script>
+</body>
+</html>
