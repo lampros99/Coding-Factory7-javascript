@@ -1,9 +1,12 @@
-$(function() {
+$(function(){
     $('.images').on('mouseenter', '.img', function(){
-        $(this).next().clone().removeClass('hidden').appendTo('.scene')
-    })
+        let textElement = $(this).parent().find('.text').clone().removeClass('hidden');
+        $('.scene').html(textElement).hide().fadeIn(300);
+    });
 
-    $('.image').on('mouseleave', '.img', function(){
-        $('.scene').find('div').remove()
-    })
-})
+    $('.images').on('mouseleave', '.img', function(){
+        $('.scene').fadeOut(200, function() { 
+            $(this).empty();
+         }); 
+    });
+});
