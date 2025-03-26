@@ -5,7 +5,16 @@ for(let i = 0; i < numberOfDrums; i++){
 document.querySelectorAll('.drum')[i].addEventListener('click', function(){
    let buttonEvent = this.innerHTML;
 
-    switch(buttonEvent){
+   
+})
+}
+
+document.addEventListener("keypress", function(event){
+    makeSound(event.key)
+})
+
+function makeSound(key){
+    switch(key){
         case 'w':
             let tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();
@@ -35,6 +44,7 @@ document.querySelectorAll('.drum')[i].addEventListener('click', function(){
         snare.play();
         break;
     }
-})
 }
+
+
     
