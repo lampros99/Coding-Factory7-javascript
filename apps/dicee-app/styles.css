@@ -40,6 +40,10 @@ footer {
 
 }
 
-.win {
+.winner1,.winner2 {
   color: red;
+}
+
+.winners{
+  color: aquamarine;
 }

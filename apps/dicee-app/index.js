@@ -9,9 +9,10 @@ document.querySelector('.img2').src = 'images/' + img[roll2];
 
 
 if (roll1 > roll2) {
-  let winner =  document.querySelector('.winner1').innerHTML = 'WINNER';
+  let winner1 =  document.querySelector('.winner1').innerHTML = 'WINNER';
 } else if (roll2 > roll1) {
-    let winner =  document.querySelector('.winner2').innerHTML = 'WINNER';
+    let winner2 =  document.querySelector('.winner2').innerHTML = 'WINNER';
 } else {
-    let winner =  document.querySelector('.winners').innerHTML = 'ΙΣΟΠΑΛΙΑ!';
+    let tie =  document.querySelector('.winners').innerHTML = 'TIE!';
 }
+
